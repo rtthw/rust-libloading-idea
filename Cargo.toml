@@ -1,6 +1,12 @@
+[workspace]
+members = ["lib"]
+
 [package]
 name = "rust-libloading-idea"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow = "1"
+lib = { path = "lib" }
+libloading = "0.8"
